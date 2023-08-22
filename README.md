@@ -1,5 +1,6 @@
 # Thinking React Compositon
 <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="300" height="300"/>
+
 - Component Reusability: Break UI components into smaller, focused components. Each smaller component handles a specific aspect of the UI, like buttons, inputs, or cards.
 
 - Single Responsibility Principle: Each component should have a single responsibility. This makes them easier to understand, maintain, and test.
