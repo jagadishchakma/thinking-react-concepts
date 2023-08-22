@@ -1,6 +1,4 @@
-import Index from "./components/Index";
-
 function App(){
-  return<Index/>
+  return <h1>Hello, Thinking React Concept</h1>
 };
 export default App;
