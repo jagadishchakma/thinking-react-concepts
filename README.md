@@ -3,6 +3,7 @@
 
 ---
 - composition
+- HOC(Higher Order Component)
 
 
 
