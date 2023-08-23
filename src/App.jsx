@@ -1,6 +1,12 @@
-import Index from "./components/Index";
+import ClickCounter from "./components/ClickCounter";
+import HoverCounter from "./components/HoverCounter";
 
 function App(){
-  return<Index/>
+    return(
+      <>
+        <ClickCounter/>
+        <HoverCounter/>
+      </>
+    )
 };
 export default App;
