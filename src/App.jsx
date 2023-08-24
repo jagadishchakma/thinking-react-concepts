@@ -1,17 +1,12 @@
-import ClickCounter from "./components/ClickCounter";
-import CountHandler from "./components/CountHandler";
-import HoverCounter from "./components/HoverCounter";
-
+import User from "./component/User";
+import UserContext from "./component/CustomContext";
 function App(){
   return(
-    <>
-      <CountHandler>
-      {(count, countHandler) => <ClickCounter count={count} countHandler={countHandler}/>}
-      </CountHandler>
-      <CountHandler>
-      {(count, countHandler) => <HoverCounter count={count} countHandler={countHandler}/>}
-      </CountHandler>
-    </>
-  )
+    <div>
+     <UserContext.Provider value={{uname: 'Jagadish', age: 23}}>
+      <User></User>
+     </UserContext.Provider>
+    </div>
+  );
 };
 export default App;
